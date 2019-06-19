@@ -23,6 +23,7 @@ Onfleet::Team
 Onfleet::Destination
 Onfleet::Recipient
 Onfleet::Task
+Onfleet::Hub
 ```
 
 ## Organizations
@@ -306,6 +307,14 @@ Onfleet::Task.list({state: 0}) # => returns all tasks with state 0, see official
 
 **Complete**
 Currently not supported
+
+## Hubs
+
+**List**
+
+```ruby
+Onfleet::Hub.list
+```
 
 
 ## Metadata
