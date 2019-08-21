@@ -34,6 +34,7 @@ require 'onfleet-ruby/team'
 require 'onfleet-ruby/vehicle'
 require 'onfleet-ruby/worker'
 require 'onfleet-ruby/webhook'
+require 'onfleet-ruby/hub'
 
 module Onfleet
   @base_url = 'https://onfleet.com/api/v2/'
